@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",            
+    "paths": {
+      "@db/*": ["libs/db/*"]
+    },
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
