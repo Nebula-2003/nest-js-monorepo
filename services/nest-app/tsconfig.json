@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",          // ⬅️ Must point to root
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["src/**/*", "../../libs/db/**/*"] // ⬅️ Ensure this is included
+}
